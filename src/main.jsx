@@ -13,14 +13,14 @@ const profile = {
 }
 
 const strengths = [
-  ['01', '数据处理', '从采集、清洗、整合到质量核验，习惯让繁杂信息成为可信赖的数据基础。', 'Python · SQL · MongoDB', '/strength-data.jpg'],
-  ['02', '建模思维', '在数学建模与市场调研竞赛中，将问题拆解为可验证的模型与清晰的判断。', 'Modeling · Research · Insight', '/strength-model.jpg'],
-  ['03', '技术实践', '覆盖 C/C++、Python、MySQL 与大数据存储相关知识，重视代码的可读与落地。', 'C/C++ · MySQL · Data Storage', '/strength-tech.jpg'],
-  ['04', '组织表达', '兼具团队统筹与辩论表达经验，能够推动协作、组织共识并清晰传递观点。', 'Leadership · Debate · Communication', '/strength-team.png'],
+  ['01', '数据处理', '从采集、清洗、整合到质量核验，习惯让繁杂信息成为可信赖的数据基础。', 'Python · SQL · MongoDB', '/gen/strength-data.jpg'],
+  ['02', '建模思维', '在数学建模与市场调研竞赛中，将问题拆解为可验证的模型与清晰的判断。', 'Modeling · Research · Insight', '/gen/strength-model.jpg'],
+  ['03', '技术实践', '覆盖 C/C++、Python、MySQL 与大数据存储相关知识，重视代码的可读与落地。', 'C/C++ · MySQL · Data Storage', '/gen/strength-tech.jpg'],
+  ['04', '组织表达', '兼具团队统筹与辩论表达经验，能够推动协作、组织共识并清晰传递观点。', 'Leadership · Debate · Communication', '/gen/strength-team.png'],
 ]
 
 const experience = [
-  ['2026', '安永华明会计师事务所（上海） · IT 审计部实习生', '通过 SQL 测试客户数据质量与业务逻辑，参与 ITAC、ITGC 底稿核对及业务流水与财务账本的数据核验。', [{ src: '/internship-1.jpg', alt: '安永华明会计师事务所实习期间照片' }, { src: '/internship-2.jpg', alt: '实习期间的团队合影' }, { src: '/internship-3.jpg', alt: '实习期间携带设备前往工作现场' }, { src: '/internship-4.jpg', alt: '实习期间的团队合影' }]],
+  ['2026', '安永华明会计师事务所（上海） · IT 审计部实习生', '通过 SQL 测试客户数据质量与业务逻辑，参与 ITAC、ITGC 底稿核对及业务流水与财务账本的数据核验。', [{ src: '/gen/internship-1.jpg', alt: '安永华明会计师事务所实习期间照片' }, { src: '/gen/internship-2.jpg', alt: '实习期间的团队合影' }, { src: '/gen/internship-3.jpg', alt: '实习期间携带设备前往工作现场' }, { src: '/gen/internship-4.jpg', alt: '实习期间的团队合影' }]],
   ['2024—25', '江苏省审计机关 · 技术助理', '完成全省 300+ 名参赛人员及嘉宾信息的数据采集、清洗与整合，建立标准化数据库，确保数据准确率达 100%。'],
   ['2023—25', '南京审计大学 · 教授助理', '参与《大数据存储与分析》近半初版内容编撰与更新，并协助嵌入式芯片与系统设计相关技术工作。'],
 ]
@@ -76,7 +76,7 @@ function App() {
     <section className="about section page-width" id="about">
       <div className="section-label"><span>01</span> ABOUT ME</div>
       <div className="about-grid">
-        <div className="portrait"><div className="portrait-light" /><div className="portrait-photo"><img src="/cyc1.jpg" alt={`${profile.name}的现场照片`} /></div><div className="portrait-copy"><small>HELLO, I AM</small><strong>我</strong><i>DATA<br />STUDENT</i></div></div>
+        <div className="portrait"><div className="portrait-light" /><div className="portrait-photo"><img src="/gen/cyc1.jpg" alt={`${profile.name}的现场照片`} /></div><div className="portrait-copy"><small>HELLO, I AM</small><strong>我</strong><i>DATA<br />STUDENT</i></div></div>
         <div className="about-copy">
           <p className="display-copy">让数据不只停留在<br /><i>数字</i>，而成为方向。</p>
           <p className="body-copy">{profile.intro}</p>
