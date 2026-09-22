@@ -24,7 +24,12 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm install
-      - run: npm run build
+      - name: Install dependencies and build
+        run: |
+          rm -rf node_modules
+          npm install
+          chmod +x node_modules/.bin/vite
+          npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
